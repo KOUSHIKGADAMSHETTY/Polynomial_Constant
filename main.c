@@ -32,7 +32,7 @@ double lagrangeInterpolation(int *x, double *y, int n) {
 }
 
 int main() {
-    FILE *file = fopen("input.json", "r");
+    FILE *file = fopen("input_1.json", "r");
     if (file == NULL) {
         fprintf(stderr, "Could not open file\n");
         return 1;
